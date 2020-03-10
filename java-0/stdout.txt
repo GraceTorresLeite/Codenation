@@ -1,0 +1,12 @@
+:compileJava
+:processResources NO-SOURCE
+:classes
+:run
+INFO -> Verificando quantidade testes esperados...
+INFO -> Verificando metodos...
+INFO -> Encontrado metodo 'isFibonacci'.
+INFO -> Encontrado metodo 'Fibonacci'.
+INFO -> Desafio pronto para ser enviado, nenhum erro encontrado!
+
+BUILD SUCCESSFUL in 1s
+2 actionable tasks: 2 executed
