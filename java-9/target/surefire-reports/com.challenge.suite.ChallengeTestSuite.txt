@@ -1,0 +1,216 @@
+-------------------------------------------------------------------------------
+Test set: com.challenge.suite.ChallengeTestSuite
+-------------------------------------------------------------------------------
+Tests run: 102, Failures: 32, Errors: 4, Skipped: 0, Time elapsed: 1.301 s <<< FAILURE! - in com.challenge.suite.ChallengeTestSuite
+hasOneToManyCandidates(com.challenge.suite.AccelerationTest)  Time elapsed: 0.327 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+	at com.challenge.suite.AccelerationTest.hasOneToManyCandidates(AccelerationTest.java:40)
+
+hasManyToOneChallenge(com.challenge.suite.AccelerationTest)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+	at com.challenge.suite.AccelerationTest.hasManyToOneChallenge(AccelerationTest.java:33)
+
+hasColumnCreatedAtWithAnnotationCreatedDate(com.challenge.suite.AccelerationTest)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+isEntityListener(com.challenge.suite.AccelerationTest)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+checkPrimaryKeysWithManyToOne(com.challenge.suite.CandidateTest)  Time elapsed: 0.019 s  <<< ERROR!
+java.lang.RuntimeException: Not embeddedId
+
+hasEmbeddedId(com.challenge.suite.CandidateTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+checkEmbeddedIdIsEmbeddable(com.challenge.suite.CandidateTest)  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+checkPrimaryKeys(com.challenge.suite.CandidateTest)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.RuntimeException: Not embeddedId
+
+checkOneToManyFieldsQuantity(com.challenge.suite.CandidateTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a collection with size <0>
+     but: collection size was <3>
+
+hasColumnCreatedAtWithAnnotationCreatedDate(com.challenge.suite.CandidateTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+isEntityListener(com.challenge.suite.CandidateTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+hasOneToManyAcceleration(com.challenge.suite.ChallengeTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+	at com.challenge.suite.ChallengeTest.hasOneToManyAcceleration(ChallengeTest.java:33)
+
+hasOneToManySubmission(com.challenge.suite.ChallengeTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+	at com.challenge.suite.ChallengeTest.hasOneToManySubmission(ChallengeTest.java:40)
+
+checkOneToManyFieldsQuantity(com.challenge.suite.ChallengeTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a collection with size <2>
+     but: collection size was <0>
+
+hasColumnCreatedAtWithAnnotationCreatedDate(com.challenge.suite.ChallengeTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+isEntityListener(com.challenge.suite.ChallengeTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+checkManyToOneFieldsQuantity(com.challenge.suite.ChallengeTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a collection with size <0>
+     but: collection size was <2>
+
+hasOneToManyCandidates(com.challenge.suite.CompanyTest)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+	at com.challenge.suite.CompanyTest.hasOneToManyCandidates(CompanyTest.java:32)
+
+checkOneToManyFieldsQuantity(com.challenge.suite.CompanyTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a collection with size <1>
+     but: collection size was <0>
+
+hasColumnCreatedAtWithAnnotationCreatedDate(com.challenge.suite.CompanyTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+isEntityListener(com.challenge.suite.CompanyTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+checkManyToOneFieldsQuantity(com.challenge.suite.CompanyTest)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a collection with size <0>
+     but: collection size was <1>
+
+checkPrimaryKeysWithManyToOne(com.challenge.suite.SubmissionTest)  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.RuntimeException: Not embeddedId
+
+hasEmbeddedId(com.challenge.suite.SubmissionTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+checkEmbeddedIdIsEmbeddable(com.challenge.suite.SubmissionTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+checkPrimaryKeys(com.challenge.suite.SubmissionTest)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.RuntimeException: Not embeddedId
+
+checkOneToManyFieldsQuantity(com.challenge.suite.SubmissionTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a collection with size <0>
+     but: collection size was <2>
+
+hasColumnCreatedAtWithAnnotationCreatedDate(com.challenge.suite.SubmissionTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+isEntityListener(com.challenge.suite.SubmissionTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+hasOneToManySubmissions(com.challenge.suite.UserTest)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+	at com.challenge.suite.UserTest.hasOneToManySubmissions(UserTest.java:140)
+
+hasOneToManyCandidates(com.challenge.suite.UserTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+	at com.challenge.suite.UserTest.hasOneToManyCandidates(UserTest.java:147)
+
+hasColumnEmailWithEmailAnnotation(com.challenge.suite.UserTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+	at com.challenge.suite.UserTest.hasColumnEmailWithEmailAnnotation(UserTest.java:87)
+
+checkOneToManyFieldsQuantity(com.challenge.suite.UserTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a collection with size <2>
+     but: collection size was <0>
+
+hasColumnCreatedAtWithAnnotationCreatedDate(com.challenge.suite.UserTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+isEntityListener(com.challenge.suite.UserTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+checkManyToOneFieldsQuantity(com.challenge.suite.UserTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a collection with size <0>
+     but: collection size was <2>
+
