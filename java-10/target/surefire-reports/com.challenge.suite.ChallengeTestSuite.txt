@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.challenge.suite.ChallengeTestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.148 s <<< FAILURE! - in com.challenge.suite.ChallengeTestSuite
+whenSave(com.challenge.suite.UserServiceTest)  Time elapsed: 0.074 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: not null
+     but: was null
+	at com.challenge.suite.UserServiceTest.assertUser(UserServiceTest.java:76)
+	at com.challenge.suite.UserServiceTest.whenSave(UserServiceTest.java:42)
+
